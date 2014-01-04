@@ -22,7 +22,7 @@
     "test": "./node_modules/.bin/grunt test"
   },
   "dependencies": {
-    "xregexp": "git+ssh://git@github.com:slevithan/xregexp.git#d06eff50f87d81d2dd3afc1e854784c38b17bcc4"
+    "xregexp": "git+https://github.com/slevithan/xregexp.git#d06eff50f87d81d2dd3afc1e854784c38b17bcc4"
   },
   "devDependencies": {
     "chai": "~1.6.0",
@@ -38,7 +38,6 @@
     "karma-coffee-preprocessor": "~0.1.2",
     "karma-firefox-launcher": "~0.1.3",
     "karma-mocha": "~0.1.1",
-    "karma-phantomjs-launcher": "~0.1.1",
     "mocha": "~1.14.0",
     "sinon": "~1.7.3",
     "sinon-chai": "~2.4.0"
