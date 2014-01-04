@@ -1,11 +1,8 @@
 require 'coffee-errors'
 
 chai = require 'chai'
-sinon = require 'sinon'
 parser = require '..'
-
 expect = chai.expect
-chai.use require 'sinon-chai'
 
 REGEX_LIST = [
   {regex: /hello|world/g, css: 'greeting'}
