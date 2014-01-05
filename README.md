@@ -18,4 +18,4 @@ Parser module for [SyntaxHighlighter](https://github.com/alexgorbatchev/syntaxhi
 
 ## License
 
-LGPL & MIT
+GPL & MIT
