@@ -22,7 +22,7 @@
     "test": "./node_modules/.bin/grunt test"
   },
   "dependencies": {
-    "xregexp": "git+https://github.com/slevithan/xregexp.git#d06eff50f87d81d2dd3afc1e854784c38b17bcc4"
+    "xregexp": "syntaxhighlighter/xregexp"
   },
   "devDependencies": {
     "chai": "^1.9.1",
