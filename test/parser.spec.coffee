@@ -9,7 +9,7 @@ REGEX_LIST = [
   {regex: /\w+/g, css: 'word'}
 ]
 
-describe 'syntaxhighlighter-parser', ->
+describe 'parser', ->
   matches = null
 
   describe '.parse', ->

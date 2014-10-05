@@ -1,5 +1,5 @@
 {
-  "name": "syntaxhighlighter-parser",
+  "name": "parser",
   "version": "4.0.0",
   "description": "Parser module for SyntaxHighlighter",
   "keywords": [
@@ -10,7 +10,7 @@
   "bugs": "https://github.com/syntaxhighlighter/parser/issues",
   "author": {
     "name": "Alex Gorbatchev",
-    "url": "https://github.com/syntaxhighlighter"
+    "url": "https://github.com/alexgorbatchev"
   },
   "main": "./lib/parser.js",
   "repository": {
