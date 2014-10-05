@@ -1,13 +1,13 @@
 {
   "name": "syntaxhighlighter-parser",
-  "version": "0.5.1",
+  "version": "4.0.0",
   "description": "Parser module for SyntaxHighlighter",
   "keywords": [
     "syntaxhighlighter",
     "parser"
   ],
-  "homepage": "https://github.com/syntaxhighlighter/syntaxhighlighter-parser",
-  "bugs": "https://github.com/syntaxhighlighter/syntaxhighlighter-parser/issues",
+  "homepage": "https://github.com/syntaxhighlighter/parser",
+  "bugs": "https://github.com/syntaxhighlighter/parser/issues",
   "author": {
     "name": "Alex Gorbatchev",
     "url": "https://github.com/syntaxhighlighter"
@@ -15,10 +15,10 @@
   "main": "./lib/parser.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/syntaxhighlighter/syntaxhighlighter-parser.git"
+    "url": "https://github.com/syntaxhighlighter/parser.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/grunt test"
+    "test": "grunt test"
   },
   "dependencies": {
     "xregexp": "syntaxhighlighter/xregexp"
@@ -45,12 +45,5 @@
     "node": ">=0.10.0",
     "npm": ">=1.2.10"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    },
-    {
-      "type": "LGPL"
-    }
-  ]
+  "license": "MIT"
 }
