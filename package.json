@@ -1,5 +1,5 @@
 {
-  "name": "parser",
+  "name": "@alexgorbatchev/parser",
   "version": "4.0.0",
   "description": "Parser module for SyntaxHighlighter",
   "keywords": [
