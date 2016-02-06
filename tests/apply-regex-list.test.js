@@ -1,18 +1,17 @@
-var chai = require('chai');
-var parser = require('../lib/parser');
-var expect = chai.expect;
+import { expect } from 'chai';
+import { applyRegexList } from '..';
 
-var REGEX_LIST = [
-  {regex: /hello|world/g, css: 'greeting'},
-  {regex: /\w+/g, css: 'word'}
+const REGEX_LIST = [
+  { regex: /hello|world/g, css: 'greeting' },
+  { regex: /\w+/g, css: 'word' }
 ];
 
-describe('parser', function() {
-  var matches = null;
+describe('apply-regex-list', function() {
+  let matches = null;
 
   describe('.parse', function() {
     before(function() {
-      matches = parser.parse("hello all world", REGEX_LIST);
+      matches = applyRegexList('hello all world', REGEX_LIST);
     });
 
     describe('matches', function() {

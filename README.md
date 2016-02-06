@@ -1,16 +1,23 @@
-# syntaxhighlighter/parser
+# syntaxhighlighter-match
 
-Parser module for [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter).
+[![GratiPay](https://img.shields.io/gratipay/user/alexgorbatchev.svg)](https://gratipay.com/alexgorbatchev/)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/brush-xml.svg)](https://travis-ci.org/syntaxhighlighter/match)
+![Downloads](https://img.shields.io/npm/dm/syntaxhighlighter-match.svg)
+![Version](https://img.shields.io/npm/v/syntaxhighlighter-match.svg)
 
-[![Build Status](https://travis-ci.org/syntaxhighlighter/parser.svg)](https://travis-ci.org/syntaxhighlighter/parser)
+This module is part of the [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter) core. It exports `Match` and `applyRegexList` functionality. 
 
 ## Installation
 
-    npm install parser
+```
+npm install syntaxhighlighter-match
+```
 
 ## Testing
 
-    npm test
+```
+npm test
+```
 
 ## License
 

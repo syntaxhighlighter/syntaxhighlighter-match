@@ -1,21 +1,23 @@
 {
-  "name": "parser",
+  "name": "syntaxhighlighter-match",
   "version": "4.0.0",
-  "description": "Parser module for SyntaxHighlighter",
+  "description": "Core module for SyntaxHighlighter.",
   "keywords": [
     "syntaxhighlighter",
-    "parser"
+    "parser",
+    "matches",
+    "core"
   ],
-  "homepage": "https://github.com/syntaxhighlighter/parser",
-  "bugs": "https://github.com/syntaxhighlighter/parser/issues",
+  "homepage": "https://github.com/syntaxhighlighter/syntaxhighlighter-match",
+  "bugs": "https://github.com/syntaxhighlighter/syntaxhighlighter-match/issues",
   "author": {
     "name": "Alex Gorbatchev",
     "url": "https://github.com/alexgorbatchev"
   },
-  "main": "./lib/parser.js",
+  "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/syntaxhighlighter/parser.git"
+    "url": "https://github.com/syntaxhighlighter/syntaxhighlighter-match.git"
   },
   "scripts": {
     "test": "mocha --opts tests/mocha.opts tests/**.test.js"
