@@ -6,7 +6,7 @@ Parser module for [SyntaxHighlighter](https://github.com/syntaxhighlighter/synta
 
 ## Installation
 
-    npm install @alexgorbatchev/parser
+    npm install parser
 
 ## Testing
 

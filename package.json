@@ -1,5 +1,5 @@
 {
-  "name": "@alexgorbatchev/parser",
+  "name": "parser",
   "version": "4.0.0",
   "description": "Parser module for SyntaxHighlighter",
   "keywords": [
@@ -21,7 +21,7 @@
     "test": "mocha --opts tests/mocha.opts tests/**.test.js"
   },
   "dependencies": {
-    "@alexgorbatchev/xregexp": "^4.0.0"
+    "xregexp": "^4.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.1.21",
