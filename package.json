@@ -20,7 +20,7 @@
     "url": "https://github.com/syntaxhighlighter/syntaxhighlighter-match.git"
   },
   "scripts": {
-    "test": "babel-node node_modules/isparta/bin/isparta cover --report text node_modules/mocha/bin/_mocha -- --opts tests/mocha.opts tests/*.test.js && node_modules/.bin/codecov"
+    "test": "babel-node --only=syntaxhighlighter-* node_modules/isparta/bin/isparta cover --report text node_modules/mocha/bin/_mocha -- --opts tests/mocha.opts tests/*.test.js && node_modules/.bin/codecov"
   },
   "dependencies": {
     "syntaxhighlighter-regex": "^4.0.0"

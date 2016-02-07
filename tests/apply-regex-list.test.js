@@ -9,7 +9,7 @@ const REGEX_LIST = [
 describe('apply-regex-list', function() {
   let matches = null;
 
-  describe('.parse', function() {
+  describe('applyRegexList', function() {
     before(function() {
       matches = applyRegexList('hello all world', REGEX_LIST);
     });
