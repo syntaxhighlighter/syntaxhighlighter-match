@@ -23,7 +23,7 @@
     "test": "mocha --opts tests/mocha.opts tests/**.test.js"
   },
   "dependencies": {
-    "xregexp": "^4.0.0"
+    "syntaxhighlighter-regex": "^4.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.1.21",
