@@ -2,6 +2,7 @@
 
 [![GratiPay](https://img.shields.io/gratipay/user/alexgorbatchev.svg)](https://gratipay.com/alexgorbatchev/)
 [![Build Status](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter-match.svg)](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter-match)
+![Coverage](https://img.shields.io/codecov/c/github/syntaxhighlighter/syntaxhighlighter-match.svg)
 ![Downloads](https://img.shields.io/npm/dm/syntaxhighlighter-match.svg)
 ![Version](https://img.shields.io/npm/v/syntaxhighlighter-match.svg)
 
