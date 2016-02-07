@@ -1,7 +1,7 @@
 # syntaxhighlighter-match
 
 [![GratiPay](https://img.shields.io/gratipay/user/alexgorbatchev.svg)](https://gratipay.com/alexgorbatchev/)
-[![Build Status](https://travis-ci.org/syntaxhighlighter/brush-xml.svg)](https://travis-ci.org/syntaxhighlighter/match)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter-match.svg)](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter-match)
 ![Downloads](https://img.shields.io/npm/dm/syntaxhighlighter-match.svg)
 ![Version](https://img.shields.io/npm/v/syntaxhighlighter-match.svg)
 
